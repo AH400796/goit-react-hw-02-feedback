@@ -6,13 +6,13 @@ export default function FeedbackOptions({ options, onLeaveFeedback }) {
   return (
     <BtnsWrapper>
       <FeedbackBtn type="button" onClick={() => onLeaveFeedback(typeGood)}>
-        {typeGood}
+        Good
       </FeedbackBtn>
       <FeedbackBtn type="button" onClick={() => onLeaveFeedback(typeNeutral)}>
-        {typeNeutral}
+        Neutral
       </FeedbackBtn>
       <FeedbackBtn type="button" onClick={() => onLeaveFeedback(typeBad)}>
-        {typeBad}
+        Bad
       </FeedbackBtn>
     </BtnsWrapper>
   );
