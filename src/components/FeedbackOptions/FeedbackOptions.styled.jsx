@@ -9,14 +9,14 @@ export const FeedbackBtn = styled.button`
 
   border: 1px solid rgb(177, 177, 177);
   cursor: pointer;
-  background-color: rgb(243, 242, 165);
+  background-color: rgb(252, 251, 205);
 
   &:last-child {
-    background-color: rgb(252, 166, 166);
+    background-color: rgb(253, 215, 215);
   }
 
   &:first-child {
-    background-color: rgb(165, 243, 172);
+    background-color: rgb(204, 255, 208);
   }
 `;
 
