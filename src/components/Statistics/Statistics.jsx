@@ -8,14 +8,16 @@ export default function Statistics({
   total,
   positivePercentage,
 }) {
+  const totalFeedbacks = total();
+  const percentageOfPositiveFeedback = positivePercentage();
   return (
     <FeedbackList>
       <FeedbackListItem>Good: {good}</FeedbackListItem>
       <FeedbackListItem>Neutral: {neutral}</FeedbackListItem>
       <FeedbackListItem>Bad: {bad}</FeedbackListItem>
-      <FeedbackListItem>Total: {total()}</FeedbackListItem>
+      <FeedbackListItem>Total: {totalFeedbacks}</FeedbackListItem>
       <FeedbackListItem>
-        Positive feedback: {positivePercentage()}%
+        Positive feedback: {percentageOfPositiveFeedback}%
       </FeedbackListItem>
     </FeedbackList>
   );
